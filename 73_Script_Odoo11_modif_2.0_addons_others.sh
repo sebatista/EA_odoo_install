@@ -32,6 +32,7 @@ sudo -H git clone https://github.com/sebatista/jobiols-odoo-addons -b 11.0 jobio
 sudo -H git clone https://github.com/regaby/odoo-addons -b 11.0 regaby-odoo-addons
 
 sudo -H git clone https://github.com/sebatista/EA_Jobiols.git -b 11.0 jobiols-ea-remito
+sudo -H git clone https://github.com/sebatista/EA_regaby.git -b 11.0 regaby-ea-sale-report
 
 sudo -H pip3 install -r others-it-projects-llc-website-addons/requirements.txt
 #sudo -H pip3 install -r others-akretion-odoo-usability/requirements.txt
@@ -40,6 +41,7 @@ sudo -H pip3 install -r others-it-projects-llc-website-addons/requirements.txt
 #sudo -H pip3 install -r regaby-odoo-addons/requirements.txt
 
 sudo -H pip3 install -r jobiols-ea-remito/requirements.txt
+sudo -H pip3 install -r regaby-ea-sale-report/requirements.txt
 
 
 sudo chown -R odoo:odoo -R /opt/odoo/addons
