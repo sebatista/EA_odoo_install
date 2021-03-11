@@ -79,15 +79,16 @@ sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ing
 #sudo rm ingadhoc-odoo-argentina.zip
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/odoo-argentina.git odoo-argentina-11.0
 
-#EN CURSO
-#sudo wget https://apps.odoo.com/loempia/download/partner_identification/11.0.1.0.0/4gXzqj52wzlBc64roBAw7v.zip -O partner_identification.zip
-#sudo unzip partner_identification.zip
-#sudo rm partner_identification.zip
-# NUEVO EN REEMPLAZO A partner_identification
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/partner-contact.git partner-contact
+#OK
+sudo wget https://apps.odoo.com/loempia/download/partner_identification/11.0.1.0.0/4gXzqj52wzlBc64roBAw7v.zip -O partner_identification.zip
+sudo unzip partner_identification.zip
+sudo rm partner_identification.zip
 
-#NUEVO EN CURSO
+#NUEVO OK
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/product.git product
+
+# NUEVO EN CURSO
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/purchase.git purchase
 
 #EN CURSO
 #sudo wget https://github.com/ingadhoc/reporting-engine/archive/11.0.zip -O ingadhoc-reporting-engine.zip
@@ -123,10 +124,75 @@ sudo -H pip3 install -r manufacture-11.0/requirements.txt
 sudo -H pip3 install -r miscellaneous-11.0/requirements.txt
 sudo -H pip3 install -r multi-store-11.0/requirements.txt
 sudo -H pip3 install -r odoo-argentina-11.0/requirements.txt
-sudo -H pip3 install -r partner-contact/requirements.txt
-#sudo -H pip3 install -r partner_identification/requirements.txt
+sudo -H pip3 install -r partner_identification/requirements.txt
 sudo -H pip3 install -r product/requirements.txt
+sudo -H pip3 install -r purchase/requirements.txt
 sudo -H pip3 install -r reporting-engine-11.0/requirements.txt	#GENERÓ ERRORES - REVISAR pycups 
 sudo -H pip3 install -r stock-11.0/requirements.txt
 sudo -H pip3 install -r sale-11.0/requirements.txt
+
+
+cd /opt/odoo/addons/ADHOC/account-financial-tools-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/account-invoicing-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/account-payment-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/aeroo_reports-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/argentina-reporting-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/argentina-sale-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/manufacture-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/miscellaneous-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/multi-store-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/odoo-argentina-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+#cd /opt/odoo/addons/ADHOC/partner_identification/
+#sudo git reset --hard HEAD
+#sudo git pull
+
+cd /opt/odoo/addons/ADHOC/product/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/purchase/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/reporting-engine-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/sale-11.0/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/ADHOC/stock-11.0/
+sudo git reset --hard HEAD
+sudo git pull
 

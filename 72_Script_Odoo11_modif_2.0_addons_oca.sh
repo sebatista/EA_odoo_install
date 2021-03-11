@@ -89,38 +89,171 @@ git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertica
 sudo chown -R odoo:odoo -R /opt/odoo/addons/oca
 sudo chmod -R 775 /opt/odoo/addons/oca
 
-sudo -H pip3 install -r OCA-server-tools/requirements.txt
-#sudo -H pip3 install -r OCA-server-ux/requirements.txt
-#sudo -H pip3 install -r OCA-sale-workflow/requirements.txt
-#sudo -H pip3 install -r OCA-sale-financial/requirements.txt
-#sudo -H pip install -r OCA-purchase-workflow/requirements.txt
-sudo -H pip3 install -r OCA-account-financial-tools/requirements.txt
+sudo -H pip3 install -r OCA-account-analytic/requirements.txt
 sudo -H pip3 install -r OCA-account-financial-reporting/requirements.txt
-#sudo -H pip3 install -r OCA-account-invoicing/requirements.txt
-#sudo -H pip3 install -r OCA-account-payment/requirements.txt
-#sudo -H pip3 install -r OCA-account-analytic/requirements.txt
-sudo -H pip3 install -r OCA-reporting-engine/requirements.txt
-#sudo -H pip3 install -r OCA-stock-logistics-workflow/requirements.txt
-#sudo -H pip3 install -r OCA-stock-logistics-warehouse/requirements.txt
-#sudo -H pip3 install -r OCA-knowledge/requirements.txt
-#sudo -H pip3 install -r OCA-manufacture/requirements.txt
-#sudo -H pip3 install -r OCA-margin-analysis/requirements.txt
-#sudo -H pip3 install -r OCA-crm/requirements.txt
-#sudo -H pip3 install -r OCA-hr/requirements.txt
-#sudo -H pip3 install -r OCA-hr-timesheet/requirements.txt
-#sudo -H pip3 install -r OCA-commission/requirements.txt
-#sudo -H pip3 install -r OCA-queue/requirements.txt
-#sudo -H pip3 install -r OCA-operating-unit/requirements.txt
-#sudo -H pip3 install -r OCA-sale-reporting/requirements.txt
-
-#Tiró error, REVISAR
-sudo -H pip3 install -r OCA-report-print-send/requirements.txt
-
-sudo -H pip3 install -r OCA-social/requirements.txt
-#sudo -H pip3 install -r OCA-contract/requirements.txt
-sudo -H pip3 install -r OCA-web/requirements.txt
-#sudo -H pip3 install -r OCA-website/requirements.txt
-#sudo -H pip3 install -r OCA-product-variant/requirements.txt
-#sudo -H pip3 install -r OCA-product-attribute/requirements.txt
+sudo -H pip3 install -r OCA-account-financial-tools/requirements.txt
+sudo -H pip3 install -r OCA-account-invoicing/requirements.txt
+sudo -H pip3 install -r OCA-account-payment/requirements.txt
+sudo -H pip3 install -r OCA-commission/requirements.txt
+sudo -H pip3 install -r OCA-contract/requirements.txt
+sudo -H pip3 install -r OCA-crm/requirements.txt
+sudo -H pip3 install -r OCA-e-commerce/requirements.txt
+sudo -H pip3 install -r OCA-hr/requirements.txt
+sudo -H pip3 install -r OCA-hr-timesheet/requirements.txt
+sudo -H pip3 install -r OCA-knowledge/requirements.txt
+sudo -H pip3 install -r OCA-manufacture/requirements.txt
+sudo -H pip3 install -r OCA-margin-analysis/requirements.txt
+sudo -H pip3 install -r OCA-operating-unit/requirements.txt
 sudo -H pip3 install -r OCA-partner-contact/requirements.txt
-#sudo -H pip3 install -r OCA-e-commerce/requirements.txt
+sudo -H pip3 install -r OCA-product-attribute/requirements.txt
+sudo -H pip3 install -r OCA-product-variant/requirements.txt
+sudo -H pip3 install -r OCA-purchase-workflow/requirements.txt
+sudo -H pip3 install -r OCA-queue/requirements.txt
+sudo -H pip3 install -r OCA-reporting-engine/requirements.txt
+
+sudo -H pip3 install -r OCA-report-print-send/requirements.txt #Tiró error, REVISAR
+
+sudo -H pip3 install -r OCA-sale-financial/requirements.txt
+sudo -H pip3 install -r OCA-sale-reporting/requirements.txt
+sudo -H pip3 install -r OCA-sale-workflow/requirements.txt
+sudo -H pip3 install -r OCA-server-tools/requirements.txt
+sudo -H pip3 install -r OCA-server-ux/requirements.txt
+sudo -H pip3 install -r OCA-social/requirements.txt
+sudo -H pip3 install -r OCA-stock-logistics-warehouse/requirements.txt
+sudo -H pip3 install -r OCA-stock-logistics-workflow/requirements.txt
+sudo -H pip3 install -r OCA-web/requirements.txt
+sudo -H pip3 install -r OCA-website/requirements.txt
+
+
+#Actualización de las rutas utilizadas
+
+cd /opt/odoo/addons/oca/OCA-account-analytic/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-account-financial-reporting/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-account-financial-tools/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-account-invoicing/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-account-payment/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-commission/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-contract/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-crm/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-e-commerce/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-hr/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-hr-timesheet/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-knowledge/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-manufacture/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-margin-analysis/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-operating-unit/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-partner-contact/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-product-attribute/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-product-variant/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-purchase-workflow/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-queue/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-reporting-engine/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-report-print-send/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-sale-financial/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-sale-reporting/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-sale-workflow/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-server-tools/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-server-ux/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-social/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-stock-logistics-warehouse/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-stock-logistics-workflow/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-web/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/oca/OCA-website/
+sudo git reset --hard HEAD
+sudo git pull
+
+sudo chown -R odoo:odoo -R /opt/odoo/addons/oca
+sudo chmod -R 775 /opt/odoo/addons/oca
