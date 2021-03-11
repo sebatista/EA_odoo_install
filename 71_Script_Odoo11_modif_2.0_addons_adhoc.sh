@@ -22,91 +22,78 @@ fi
 
 cd /opt/odoo/addons/ADHOC
 
-#OK
-#sudo wget https://github.com/ingadhoc/account-financial-tools/archive/11.0.zip -O ingadhoc-account-financial-tools.zip
-#sudo unzip ingadhoc-account-financial-tools.zip
-#sudo rm ingadhoc-account-financial-tools.zip
+
+
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/account-financial-tools.git account-financial-tools-11.0
-
-#OK
-#sudo wget https://github.com/ingadhoc/account-invoicing/archive/11.0.zip -O ingadhoc-account-invoicing.zip
-#sudo unzip ingadhoc-account-invoicing.zip
-#sudo rm ingadhoc-account-invoicing.zip
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/account-invoicing.git account-invoicing-11.0
-
-#OK
-#sudo wget https://github.com/ingadhoc/account-payment/archive/11.0.zip -O ingadhoc-account-payment.zip
-#sudo unzip ingadhoc-account-payment.zip
-#sudo rm ingadhoc-account-payment.zip
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/account-payment.git account-payment-11.0
-
-#OK
-#sudo wget https://github.com/ingadhoc/aeroo_reports/archive/11.0.zip -O ingadhoc-aeroo_reports.zip
-#sudo unzip ingadhoc-aeroo_reports.zip
-#sudo rm ingadhoc-aeroo_reports.zip
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/aeroo_reports.git aeroo_reports-11.0
-
-#OK
-#sudo wget https://github.com/ingadhoc/argentina-reporting/archive/11.0.zip -O ingadhoc-argentina-reporting.zip
-#sudo unzip ingadhoc-argentina-reporting.zip
-#sudo rm ingadhoc-argentina-reporting.zip
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/argentina-reporting.git argentina-reporting-11.0
-
-#OK
-#sudo wget https://github.com/ingadhoc/argentina-sale/archive/11.0.zip -O ingadhoc-argentina-sale.zip
-#sudo unzip ingadhoc-argentina-sale.zip
-#sudo rm ingadhoc-argentina-sale.zip
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/argentina-sale.git argentina-sale-11.0
-
-#OK
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/manufacture.git manufacture
-
-#OK
-#sudo wget https://github.com/ingadhoc/miscellaneous/archive/11.0.zip -O ingadhoc-miscellaneous.zip
-#sudo unzip ingadhoc-miscellaneous.zip
-#sudo rm ingadhoc-miscellaneous.zip
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/miscellaneous.git miscellaneous-11.0
-
-#OK
-#sudo wget https://github.com/ingadhoc/multi-store/archive/11.0.zip -O ingadhoc-multi-store.zip
-#sudo unzip ingadhoc-multi-store.zip
-#sudo rm ingadhoc-multi-store.zip
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/multi-store.git multi-store-11.0
-
-#OK
-#sudo wget https://github.com/ingadhoc/odoo-argentina/archive/11.0.zip -O ingadhoc-odoo-argentina.zip
-#sudo unzip ingadhoc-odoo-argentina.zip
-#sudo rm ingadhoc-odoo-argentina.zip
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/odoo-argentina.git odoo-argentina-11.0
 
-#OK
 sudo wget https://apps.odoo.com/loempia/download/partner_identification/11.0.1.0.0/4gXzqj52wzlBc64roBAw7v.zip -O partner_identification.zip
 sudo unzip partner_identification.zip
 sudo rm partner_identification.zip
 
-#NUEVO OK
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/product.git product
-
-# NUEVO EN CURSO
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/purchase.git purchase
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/reporting-engine.git reporting-engine-11.0
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/sale.git sale-11.0
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/stock.git stock-11.0
 
-#EN CURSO
+
+#sudo wget https://github.com/ingadhoc/account-financial-tools/archive/11.0.zip -O ingadhoc-account-financial-tools.zip
+#sudo unzip ingadhoc-account-financial-tools.zip
+#sudo rm ingadhoc-account-financial-tools.zip
+
+#sudo wget https://github.com/ingadhoc/account-invoicing/archive/11.0.zip -O ingadhoc-account-invoicing.zip
+#sudo unzip ingadhoc-account-invoicing.zip
+#sudo rm ingadhoc-account-invoicing.zip
+
+#sudo wget https://github.com/ingadhoc/account-payment/archive/11.0.zip -O ingadhoc-account-payment.zip
+#sudo unzip ingadhoc-account-payment.zip
+#sudo rm ingadhoc-account-payment.zip
+
+#sudo wget https://github.com/ingadhoc/aeroo_reports/archive/11.0.zip -O ingadhoc-aeroo_reports.zip
+#sudo unzip ingadhoc-aeroo_reports.zip
+#sudo rm ingadhoc-aeroo_reports.zip
+
+#sudo wget https://github.com/ingadhoc/argentina-reporting/archive/11.0.zip -O ingadhoc-argentina-reporting.zip
+#sudo unzip ingadhoc-argentina-reporting.zip
+#sudo rm ingadhoc-argentina-reporting.zip
+
+#sudo wget https://github.com/ingadhoc/argentina-sale/archive/11.0.zip -O ingadhoc-argentina-sale.zip
+#sudo unzip ingadhoc-argentina-sale.zip
+#sudo rm ingadhoc-argentina-sale.zip
+
+
+#sudo wget https://github.com/ingadhoc/miscellaneous/archive/11.0.zip -O ingadhoc-miscellaneous.zip
+#sudo unzip ingadhoc-miscellaneous.zip
+#sudo rm ingadhoc-miscellaneous.zip
+
+#sudo wget https://github.com/ingadhoc/multi-store/archive/11.0.zip -O ingadhoc-multi-store.zip
+#sudo unzip ingadhoc-multi-store.zip
+#sudo rm ingadhoc-multi-store.zip
+
+#sudo wget https://github.com/ingadhoc/odoo-argentina/archive/11.0.zip -O ingadhoc-odoo-argentina.zip
+#sudo unzip ingadhoc-odoo-argentina.zip
+#sudo rm ingadhoc-odoo-argentina.zip
+
 #sudo wget https://github.com/ingadhoc/reporting-engine/archive/11.0.zip -O ingadhoc-reporting-engine.zip
 #sudo unzip ingadhoc-reporting-engine.zip
 #sudo rm ingadhoc-reporting-engine.zip
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/reporting-engine.git reporting-engine-11.0
 
-#EN CURSO
 #sudo wget https://github.com/ingadhoc/sale/archive/11.0.zip -O ingadhoc-sale.zip
 #sudo unzip ingadhoc-sale.zip
 #sudo rm ingadhoc-sale.zip
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/sale.git sale-11.0
 
-#EN CURSO
 #sudo wget https://github.com/ingadhoc/stock/archive/11.0.zip -O ingadhoc-stock.zip
 #sudo unzip ingadhoc-stock.zip
 #sudo rm ingadhoc-stock.zip
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/stock.git stock-11.0
 
 
 sudo chown -R odoo:odoo -R /opt/odoo/addons/ADHOC
@@ -114,7 +101,7 @@ sudo chmod -R 775 /opt/odoo/addons/ADHOC
 
 sudo -H pip3 install pycryptodome
 # original # 
-sudo -H pip3 install -r account-financial-tools-11.0/requirements.txt		#No existe el archivo
+sudo -H pip3 install -r account-financial-tools-11.0/requirements.txt
 sudo -H pip3 install -r account-invoicing-11.0/requirements.txt
 sudo -H pip3 install -r account-payment-11.0/requirements.txt
 sudo -H pip3 install -r aeroo_reports-11.0/requirements.txt
@@ -196,3 +183,5 @@ cd /opt/odoo/addons/ADHOC/stock-11.0/
 sudo git reset --hard HEAD
 sudo git pull
 
+sudo chown -R odoo:odoo -R /opt/odoo/addons/ADHOC
+sudo chmod -R 775 /opt/odoo/addons/ADHOC

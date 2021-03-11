@@ -86,8 +86,8 @@ git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertica
 git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertical-hotel.git OCA-vertical-hotel
 
 
-sudo chown -R odoo:odoo -R /opt/odoo/addons/oca
-sudo chmod -R 775 /opt/odoo/addons/oca
+sudo chown -R odoo:odoo -R /opt/odoo/addons/OCA
+sudo chmod -R 775 /opt/odoo/addons/OCA
 
 sudo -H pip3 install -r OCA-account-analytic/requirements.txt
 sudo -H pip3 install -r OCA-account-financial-reporting/requirements.txt
@@ -127,133 +127,133 @@ sudo -H pip3 install -r OCA-website/requirements.txt
 
 #Actualización de las rutas utilizadas
 
-cd /opt/odoo/addons/oca/OCA-account-analytic/
+cd /opt/odoo/addons/OCA/OCA-account-analytic/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-account-financial-reporting/
+cd /opt/odoo/addons/OCA/OCA-account-financial-reporting/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-account-financial-tools/
+cd /opt/odoo/addons/OCA/OCA-account-financial-tools/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-account-invoicing/
+cd /opt/odoo/addons/OCA/OCA-account-invoicing/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-account-payment/
+cd /opt/odoo/addons/OCA/OCA-account-payment/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-commission/
+cd /opt/odoo/addons/OCA/OCA-commission/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-contract/
+cd /opt/odoo/addons/OCA/OCA-contract/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-crm/
+cd /opt/odoo/addons/OCA/OCA-crm/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-e-commerce/
+cd /opt/odoo/addons/OCA/OCA-e-commerce/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-hr/
+cd /opt/odoo/addons/OCA/OCA-hr/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-hr-timesheet/
+cd /opt/odoo/addons/OCA/OCA-hr-timesheet/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-knowledge/
+cd /opt/odoo/addons/OCA/OCA-knowledge/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-manufacture/
+cd /opt/odoo/addons/OCA/OCA-manufacture/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-margin-analysis/
+cd /opt/odoo/addons/OCA/OCA-margin-analysis/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-operating-unit/
+cd /opt/odoo/addons/OCA/OCA-operating-unit/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-partner-contact/
+cd /opt/odoo/addons/OCA/OCA-partner-contact/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-product-attribute/
+cd /opt/odoo/addons/OCA/OCA-product-attribute/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-product-variant/
+cd /opt/odoo/addons/OCA/OCA-product-variant/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-purchase-workflow/
+cd /opt/odoo/addons/OCA/OCA-purchase-workflow/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-queue/
+cd /opt/odoo/addons/OCA/OCA-queue/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-reporting-engine/
+cd /opt/odoo/addons/OCA/OCA-reporting-engine/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-report-print-send/
+cd /opt/odoo/addons/OCA/OCA-report-print-send/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-sale-financial/
+cd /opt/odoo/addons/OCA/OCA-sale-financial/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-sale-reporting/
+cd /opt/odoo/addons/OCA/OCA-sale-reporting/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-sale-workflow/
+cd /opt/odoo/addons/OCA/OCA-sale-workflow/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-server-tools/
+cd /opt/odoo/addons/OCA/OCA-server-tools/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-server-ux/
+cd /opt/odoo/addons/OCA/OCA-server-ux/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-social/
+cd /opt/odoo/addons/OCA/OCA-social/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-stock-logistics-warehouse/
+cd /opt/odoo/addons/OCA/OCA-stock-logistics-warehouse/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-stock-logistics-workflow/
+cd /opt/odoo/addons/OCA/OCA-stock-logistics-workflow/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-web/
+cd /opt/odoo/addons/OCA/OCA-web/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/oca/OCA-website/
+cd /opt/odoo/addons/OCA/OCA-website/
 sudo git reset --hard HEAD
 sudo git pull
 
-sudo chown -R odoo:odoo -R /opt/odoo/addons/oca
-sudo chmod -R 775 /opt/odoo/addons/oca
+sudo chown -R odoo:odoo -R /opt/odoo/addons/OCA
+sudo chmod -R 775 /opt/odoo/addons/OCA
