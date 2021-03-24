@@ -41,6 +41,9 @@ sudo -H pip3 install -r others-akretion-odoo-usability/requirements.txt
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/it-projects-llc/website-addons others-it-projects-llc-website-addons
 sudo -H pip3 install -r others-it-projects-llc-website-addons/requirements.txt
 
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/itpp-labs/access-addons itpp-labs-access-addons
+sudo -H pip3 install -r itpp-labs-access-addons/requirements.txt
+
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/sebatista/EA_regaby.git regaby-ea-sale-report
 sudo -H pip3 install -r regaby-ea-sale-report/requirements.txt
 
