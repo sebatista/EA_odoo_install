@@ -38,11 +38,20 @@ sudo -H pip3 install -r jobiols-odoo-jeo-ce/requirements.txt
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/akretion/odoo-usability others-akretion-odoo-usability
 sudo -H pip3 install -r others-akretion-odoo-usability/requirements.txt
 
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/it-projects-llc/website-addons others-it-projects-llc-website-addons
-sudo -H pip3 install -r others-it-projects-llc-website-addons/requirements.txt
+#sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/it-projects-llc/website-addons others-it-projects-llc-website-addons
+#sudo -H pip3 install -r others-it-projects-llc-website-addons/requirements.txt
 
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/itpp-labs/access-addons itpp-labs-access-addons
 sudo -H pip3 install -r itpp-labs-access-addons/requirements.txt
+
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/itpp-labs/mail-addons.git itpp-labs-mail-addons
+sudo -H pip3 install -r itpp-labs-mail-addons/requirements.txt
+
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/itpp-labs/misc-addons.git itpp-labs-misc-addons
+sudo -H pip3 install -r itpp-labs-misc-addons/requirements.txt
+
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/itpp-labs/website-addons.git itpp-labs-website-addons
+sudo -H pip3 install -r itpp-labs-website-addons/requirements.txt
 
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/sebatista/EA_regaby.git regaby-ea-sale-report
 sudo -H pip3 install -r regaby-ea-sale-report/requirements.txt
