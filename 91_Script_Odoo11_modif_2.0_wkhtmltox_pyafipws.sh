@@ -11,6 +11,7 @@ sudo apt-get remove qt4-dev-tools
 sudo apt-get remove wkhtmltopdf
 
 sudo apt-get autoremove
+sudo apt-get --fix-broken install
 
 sudo -H apt-get install openssl -y
 sudo -H apt-get install build-essential -y
@@ -25,12 +26,20 @@ sudo -H apt-get install fontconfig -y
 
 # Descargamos herramientas opcionales necesarias
 sudo wget http://archive.ubuntu.com/ubuntu/pool/main/libj/libjpeg-turbo/libjpeg-turbo8_1.5.2-0ubuntu5.18.04.1_amd64.deb
-sudo wget http://ftp.br.debian.org/debian/pool/main/libp/libpng/libpng12-0_1.2.50-2+deb8u3_amd64.deb
-sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
-
 sudo -H dpkg -i libjpeg-turbo8_1.5.2-0ubuntu5.18.04.1_amd64.deb
+
+sudo wget http://ftp.br.debian.org/debian/pool/main/libp/libpng/libpng12-0_1.2.50-2+deb8u3_amd64.deb
 sudo -H dpkg -i libpng12-0_1.2.50-2+deb8u3_amd64.deb
+
+
+# REVISAR https://wkhtmltopdf.org/downloads.html
+sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.1/wkhtmltox-0.12.1_linux-trusty-amd64.deb
 sudo -H dpkg -i wkhtmltox-0.12.1_linux-trusty-amd64.deb
+
+sudo wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.bionic_amd64.deb
+sudo -H dpkg -i wkhtmltox_0.12.6-1.bionic_amd64.deb
+
+
 
 #Falla
 #sudo wget http://security.debian.org/debian-security/pool/updates/main/o/openssl/libssl1.0.0_1.0.1t-1+deb7u4_amd64.deb
