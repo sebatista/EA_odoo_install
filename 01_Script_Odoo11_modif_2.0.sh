@@ -59,7 +59,7 @@ sudo -H pip3 install six
 sudo -H pip3 install suds-jurko
 sudo -H pip3 install vatnumber 
 sudo -H pip3 install vobject
-sudo -H pip3 install Werkzeug
+sudo -H pip3 install Werkzeug==0.11.15
 sudo -H pip3 install XlsxWriter
 sudo -H pip3 install xlwt
 sudo -H pip3 install xlrd 
@@ -68,7 +68,13 @@ sudo -H pip3 install xlrd
 sudo -H pip3 install phonenumbers
 
 # Instacion de dependecias para Web Odoo
+
+#ubuntu 16.04
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+
+#ubuntu 18.04
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
 sudo -H apt-get install nodejs -y
 sudo -H apt-get install build-essential -y
 sudo -H apt-get install gcc -y

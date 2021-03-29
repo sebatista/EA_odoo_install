@@ -28,9 +28,9 @@ sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/seb
 sudo -H pip3 install -r jobiols-ea-remito/requirements.txt
 
 #sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/jobiols/odoo-addons jobiols-odoo-addons
- sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/sebatista/jobiols-odoo-addons jobiols-odoo-addons
-#sudo -H pip3 install -r jobiols-odoo-addons/l10n_ar_export_arba/requirements.txt
-#sudo -H pip3 install -r jobiols-odoo-addons/l10n_ar_export_sicore/requirements.txt
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/sebatista/jobiols-odoo-addons jobiols-odoo-addons
+sudo -H pip3 install -r jobiols-odoo-addons/l10n_ar_export_arba/requirements.txt
+sudo -H pip3 install -r jobiols-odoo-addons/l10n_ar_export_sicore/requirements.txt
 
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/jobiols/odoo-jeo-ce.git jobiols-odoo-jeo-ce
 sudo -H pip3 install -r jobiols-odoo-jeo-ce/requirements.txt
@@ -100,3 +100,31 @@ sudo -H pip3 install -r regaby-odoo-addons/requirements.txt
 sudo chown -R odoo:odoo -R /opt/odoo/addons/others
 sudo chmod -R 775 /opt/odoo/addons/others
 
+
+# Crear directorios para Addons
+if [ -d /opt/odoo/addons/ ] ;
+then
+	echo "Directorio /opt/odoo/addons/ existente"
+else
+	sudo mkdir /opt/odoo/addons
+	echo "Directorio /opt/odoo/addons/ creado"
+fi
+
+# Crear directorios para Temas
+if [ -d /opt/odoo/addons/temas/ ];
+then
+	echo "El directorio /opt/odoo/addons/temas/ ya existe."
+else
+	sudo -H mkdir /opt/odoo/addons/temas
+	echo "Directorio /opt/odoo/addons/temas/ creado."
+fi
+
+cd /opt/odoo/addons/temas
+
+
+sudo -H git clone --depth 1 --single-branch https://github.com/sebatista/EA_theme_laze.git theme_laze
+sudo -H pip3 install -r theme_laze/requirements.txt
+
+
+sudo chown -R odoo:odoo -R /opt/odoo/addons/temas
+sudo chmod -R 775 /opt/odoo/addons/temas

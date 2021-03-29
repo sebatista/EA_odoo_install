@@ -57,33 +57,33 @@ sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/website OCA-website
 
 
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-closing.git OCA-account-closing
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-invoice-reporting.git OCA-account-invoice-reporting
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-reconcile.git OCA-account-reconcile
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/bank-payment.git OCA-bank-payment
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/credit-control.git OCA-credit-control
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/currency.git OCA-currency
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/ddmrp.git OCA-ddmrp
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/donation.git OCA-donation
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/event.git OCA-event
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/field-service.git OCA-field-service
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/geospatial.git OCA-geospatial
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/manufacture-reporting.git OCA-manufacture-reporting
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/mis-builder.git OCA-mis-builder
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/multi-company.git OCA-multi-company
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/OpenUpgrade.git OCA-OpenUpgrade
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/pos.git OCA-pos
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/project.git OCA-project
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/project-reporting.git OCA-project-reporting
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/rma.git OCA-rma
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-auth.git OCA-server-auth
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-backend.git OCA-server-backend
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-barcode.git OCA-stock-logistics-barcode
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-reporting.git OCA-stock-logistics-reporting
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/survey.git OCA-survey
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/timesheet.git OCA-timesheet
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertical-association.git OCA-vertical-association
-git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertical-hotel.git OCA-vertical-hotel
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-closing.git OCA-account-closing
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-invoice-reporting.git OCA-account-invoice-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-reconcile.git OCA-account-reconcile
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/bank-payment.git OCA-bank-payment
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/credit-control.git OCA-credit-control
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/currency.git OCA-currency
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/ddmrp.git OCA-ddmrp
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/donation.git OCA-donation
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/event.git OCA-event
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/field-service.git OCA-field-service
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/geospatial.git OCA-geospatial
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/manufacture-reporting.git OCA-manufacture-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/mis-builder.git OCA-mis-builder
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/multi-company.git OCA-multi-company
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/OpenUpgrade.git OCA-OpenUpgrade
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/pos.git OCA-pos
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/project.git OCA-project
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/project-reporting.git OCA-project-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/rma.git OCA-rma
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-auth.git OCA-server-auth
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-backend.git OCA-server-backend
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-barcode.git OCA-stock-logistics-barcode
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-reporting.git OCA-stock-logistics-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/survey.git OCA-survey
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/timesheet.git OCA-timesheet
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertical-association.git OCA-vertical-association
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertical-hotel.git OCA-vertical-hotel
 
 
 sudo chown -R odoo:odoo -R /opt/odoo/addons/OCA

@@ -107,7 +107,7 @@ sudo -H pip3 install -r account-payment-11.0/requirements.txt
 sudo -H pip3 install -r aeroo_reports-11.0/requirements.txt
 sudo -H pip3 install -r argentina-reporting-11.0/requirements.txt
 sudo -H pip3 install -r argentina-sale-11.0/requirements.txt
-sudo -H pip3 install -r manufacture-11.0/requirements.txt
+sudo -H pip3 install -r manufacture/requirements.txt
 sudo -H pip3 install -r miscellaneous-11.0/requirements.txt
 sudo -H pip3 install -r multi-store-11.0/requirements.txt
 sudo -H pip3 install -r odoo-argentina-11.0/requirements.txt
