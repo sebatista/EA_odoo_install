@@ -11,7 +11,6 @@ sudo -H apt-get install python3-pip -y
 sudo -H apt-get install curl -y
 sudo -H apt-get install software-properties-common -y
 sudo -H apt-get install mc -y
-sudo -H apt-get install postgresql -y
 sudo -H apt-get install python-psycopg2 -y
 sudo -H apt-get install libpq-dev -y
 sudo -H apt-get install git -y
@@ -90,11 +89,16 @@ sudo -H apt-get install node-less -y
 # sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
 # wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 sudo -H apt-get update
+
 sudo -H apt-get install postgresql-9.5 -y
+#sudo -H apt-get install postgresql -y
 sudo -H apt-get install postgresql-client-9.5 -y
+#sudo -H apt-get install postgresql-client -y
 sudo -H apt-get install postgresql-contrib-9.5 -y
+#sudo -H apt-get install postgresql-contrib -y
 sudo -H apt-get install libpq5 -y
 sudo -H apt-get install sysstat -y
+
 
 # Creamos el usuario para la base de datos de Odoo
 sudo su postgres -c "createuser -s odoo"
