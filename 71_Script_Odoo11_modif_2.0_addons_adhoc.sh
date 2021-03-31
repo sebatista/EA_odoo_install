@@ -44,6 +44,7 @@ sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ing
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/reporting-engine.git reporting-engine-11.0
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/sale.git sale-11.0
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/stock.git stock-11.0
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/ingadhoc/website.git website
 
 
 #sudo wget https://github.com/ingadhoc/account-financial-tools/archive/11.0.zip -O ingadhoc-account-financial-tools.zip
@@ -119,6 +120,7 @@ sudo -H pip3 install -r reporting-engine-11.0/requirements.txt	#GENERÓ ERRORES 
 
 sudo -H pip3 install -r stock-11.0/requirements.txt
 sudo -H pip3 install -r sale-11.0/requirements.txt
+sudo -H pip3 install -r website/requirements.txt
 
 
 cd /opt/odoo/addons/ADHOC/account-financial-tools-11.0/
@@ -184,6 +186,12 @@ sudo git pull
 cd /opt/odoo/addons/ADHOC/stock-11.0/
 sudo git reset --hard HEAD
 sudo git pull
+
+cd /opt/odoo/addons/ADHOC/website/
+sudo git reset --hard HEAD
+sudo git pull
+
+
 
 sudo chown -R odoo:odoo -R /opt/odoo/addons/ADHOC
 sudo chmod -R 775 /opt/odoo/addons/ADHOC

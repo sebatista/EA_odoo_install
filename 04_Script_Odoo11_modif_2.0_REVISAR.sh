@@ -13,3 +13,9 @@ sudo su - odoo -s /bin/bash -c "pip3 install -r odoo-server/doc/requirements.txt
 #REVISAR 2 Paquetes tiran error de permisos
 # Creo que muchos otros
 # sphinxcontrib_jsmatch-1.0.1-py3.7-nspkg
+
+
+#ACTUALIZACIÓN DE BASE DE DATOS Y MÓDULOS
+# sudo su - odoo -s /bin/bash
+# cd /odoo-server/
+# ./odoo-bin -c /etc/odoo-server.conf --update all
