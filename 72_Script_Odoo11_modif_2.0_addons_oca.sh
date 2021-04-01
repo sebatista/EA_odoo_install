@@ -23,235 +23,235 @@ fi
 cd /opt/odoo/addons/OCA
 
 #--depth 1 Es para que únicamente se clone la última versión y no ocupe tanto espacio.
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-analytic OCA-account-analytic
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-financial-reporting OCA-account-financial-reporting
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-financial-tools OCA-account-financial-tools
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-invoicing OCA-account-invoicing
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-payment OCA-account-payment
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/commission OCA-commission
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/contract OCA-contract
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/crm OCA-crm
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/e-commerce OCA-e-commerce
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/hr OCA-hr
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/hr-timesheet OCA-hr-timesheet
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/knowledge OCA-knowledge
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/manufacture OCA-manufacture
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/margin-analysis OCA-margin-analysis
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/operating-unit.git OCA-operating-unit
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/partner-contact OCA-partner-contact
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/product-attribute OCA-product-attribute
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/product-variant OCA-product-variant
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/purchase-workflow OCA-purchase-workflow
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/queue OCA-queue
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/reporting-engine OCA-reporting-engine
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/report-print-send OCA-report-print-send
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/sale-financial OCA-sale-financial
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/sale-reporting.git OCA-sale-reporting
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/sale-workflow OCA-sale-workflow
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-tools OCA-server-tools
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-ux OCA-server-ux
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/social OCA-social
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-warehouse OCA-stock-logistics-warehouse
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-workflow OCA-stock-logistics-workflow
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/web OCA-web
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/website OCA-website
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-analytic account-analytic
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-financial-reporting account-financial-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-financial-tools account-financial-tools
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-invoicing account-invoicing
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-payment account-payment
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/commission commission
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/contract contract
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/crm crm
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/e-commerce e-commerce
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/hr hr
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/hr-timesheet hr-timesheet
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/knowledge knowledge
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/manufacture manufacture
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/margin-analysis margin-analysis
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/operating-unit.git operating-unit
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/partner-contact partner-contact
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/product-attribute product-attribute
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/product-variant product-variant
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/purchase-workflow purchase-workflow
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/queue queue
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/reporting-engine reporting-engine
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/report-print-send report-print-send
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/sale-financial sale-financial
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/sale-reporting.git sale-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/sale-workflow sale-workflow
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-tools server-tools
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-ux server-ux
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/social social
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-warehouse stock-logistics-warehouse
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-workflow stock-logistics-workflow
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/web web
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/website website
 
 
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-closing.git OCA-account-closing
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-invoice-reporting.git OCA-account-invoice-reporting
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-reconcile.git OCA-account-reconcile
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/bank-payment.git OCA-bank-payment
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/credit-control.git OCA-credit-control
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/currency.git OCA-currency
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/ddmrp.git OCA-ddmrp
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/donation.git OCA-donation
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/event.git OCA-event
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/field-service.git OCA-field-service
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/geospatial.git OCA-geospatial
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/manufacture-reporting.git OCA-manufacture-reporting
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/mis-builder.git OCA-mis-builder
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/multi-company.git OCA-multi-company
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/OpenUpgrade.git OCA-OpenUpgrade
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/pos.git OCA-pos
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/project.git OCA-project
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/project-reporting.git OCA-project-reporting
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/rma.git OCA-rma
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-auth.git OCA-server-auth
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-backend.git OCA-server-backend
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-barcode.git OCA-stock-logistics-barcode
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-reporting.git OCA-stock-logistics-reporting
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/survey.git OCA-survey
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/timesheet.git OCA-timesheet
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertical-association.git OCA-vertical-association
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertical-hotel.git OCA-vertical-hotel
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-closing.git account-closing
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-invoice-reporting.git account-invoice-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-reconcile.git account-reconcile
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/bank-payment.git bank-payment
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/credit-control.git credit-control
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/currency.git currency
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/ddmrp.git ddmrp
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/donation.git donation
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/event.git event
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/field-service.git field-service
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/geospatial.git geospatial
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/manufacture-reporting.git manufacture-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/mis-builder.git mis-builder
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/multi-company.git multi-company
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/OpenUpgrade.git OpenUpgrade
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/pos.git pos
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/project.git project
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/project-reporting.git project-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/rma.git rma
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-auth.git server-auth
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/server-backend.git server-backend
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-barcode.git stock-logistics-barcode
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/stock-logistics-reporting.git stock-logistics-reporting
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/survey.git survey
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/timesheet.git timesheet
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertical-association.git vertical-association
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/vertical-hotel.git vertical-hotel
 
 
 sudo chown -R odoo:odoo -R /opt/odoo/addons/OCA
 sudo chmod -R 775 /opt/odoo/addons/OCA
 
-sudo -H pip3 install -r OCA-account-analytic/requirements.txt
-sudo -H pip3 install -r OCA-account-financial-reporting/requirements.txt
-sudo -H pip3 install -r OCA-account-financial-tools/requirements.txt
-sudo -H pip3 install -r OCA-account-invoicing/requirements.txt
-sudo -H pip3 install -r OCA-account-payment/requirements.txt
-sudo -H pip3 install -r OCA-commission/requirements.txt
-sudo -H pip3 install -r OCA-contract/requirements.txt
-sudo -H pip3 install -r OCA-crm/requirements.txt
-sudo -H pip3 install -r OCA-e-commerce/requirements.txt
-sudo -H pip3 install -r OCA-hr/requirements.txt
-sudo -H pip3 install -r OCA-hr-timesheet/requirements.txt
-sudo -H pip3 install -r OCA-knowledge/requirements.txt
-sudo -H pip3 install -r OCA-manufacture/requirements.txt
-sudo -H pip3 install -r OCA-margin-analysis/requirements.txt
-sudo -H pip3 install -r OCA-operating-unit/requirements.txt
-sudo -H pip3 install -r OCA-partner-contact/requirements.txt
-sudo -H pip3 install -r OCA-product-attribute/requirements.txt
-sudo -H pip3 install -r OCA-product-variant/requirements.txt
-sudo -H pip3 install -r OCA-purchase-workflow/requirements.txt
-sudo -H pip3 install -r OCA-queue/requirements.txt
-sudo -H pip3 install -r OCA-reporting-engine/requirements.txt
+sudo -H pip3 install -r account-analytic/requirements.txt
+sudo -H pip3 install -r account-financial-reporting/requirements.txt
+sudo -H pip3 install -r account-financial-tools/requirements.txt
+sudo -H pip3 install -r account-invoicing/requirements.txt
+sudo -H pip3 install -r account-payment/requirements.txt
+sudo -H pip3 install -r commission/requirements.txt
+sudo -H pip3 install -r contract/requirements.txt
+sudo -H pip3 install -r crm/requirements.txt
+sudo -H pip3 install -r e-commerce/requirements.txt
+sudo -H pip3 install -r hr/requirements.txt
+sudo -H pip3 install -r hr-timesheet/requirements.txt
+sudo -H pip3 install -r knowledge/requirements.txt
+sudo -H pip3 install -r manufacture/requirements.txt
+sudo -H pip3 install -r margin-analysis/requirements.txt
+sudo -H pip3 install -r operating-unit/requirements.txt
+sudo -H pip3 install -r partner-contact/requirements.txt
+sudo -H pip3 install -r product-attribute/requirements.txt
+sudo -H pip3 install -r product-variant/requirements.txt
+sudo -H pip3 install -r purchase-workflow/requirements.txt
+sudo -H pip3 install -r queue/requirements.txt
+sudo -H pip3 install -r reporting-engine/requirements.txt
 
-sudo -H pip3 install -r OCA-report-print-send/requirements.txt #Tiró error, REVISAR
+sudo -H pip3 install -r report-print-send/requirements.txt #Tiró error, REVISAR
 
-sudo -H pip3 install -r OCA-sale-financial/requirements.txt
-sudo -H pip3 install -r OCA-sale-reporting/requirements.txt
-sudo -H pip3 install -r OCA-sale-workflow/requirements.txt
-sudo -H pip3 install -r OCA-server-tools/requirements.txt
-sudo -H pip3 install -r OCA-server-ux/requirements.txt
-sudo -H pip3 install -r OCA-social/requirements.txt
-sudo -H pip3 install -r OCA-stock-logistics-warehouse/requirements.txt
-sudo -H pip3 install -r OCA-stock-logistics-workflow/requirements.txt
-sudo -H pip3 install -r OCA-web/requirements.txt
-sudo -H pip3 install -r OCA-website/requirements.txt
+sudo -H pip3 install -r sale-financial/requirements.txt
+sudo -H pip3 install -r sale-reporting/requirements.txt
+sudo -H pip3 install -r sale-workflow/requirements.txt
+sudo -H pip3 install -r server-tools/requirements.txt
+sudo -H pip3 install -r server-ux/requirements.txt
+sudo -H pip3 install -r social/requirements.txt
+sudo -H pip3 install -r stock-logistics-warehouse/requirements.txt
+sudo -H pip3 install -r stock-logistics-workflow/requirements.txt
+sudo -H pip3 install -r web/requirements.txt
+sudo -H pip3 install -r website/requirements.txt
 
 
 #Actualización de las rutas utilizadas
 
-cd /opt/odoo/addons/OCA/OCA-account-analytic/
+cd /opt/odoo/addons/OCA/account-analytic/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-account-financial-reporting/
+cd /opt/odoo/addons/OCA/account-financial-reporting/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-account-financial-tools/
+cd /opt/odoo/addons/OCA/account-financial-tools/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-account-invoicing/
+cd /opt/odoo/addons/OCA/account-invoicing/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-account-payment/
+cd /opt/odoo/addons/OCA/account-payment/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-commission/
+cd /opt/odoo/addons/OCA/commission/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-contract/
+cd /opt/odoo/addons/OCA/contract/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-crm/
+cd /opt/odoo/addons/OCA/crm/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-e-commerce/
+cd /opt/odoo/addons/OCA/e-commerce/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-hr/
+cd /opt/odoo/addons/OCA/hr/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-hr-timesheet/
+cd /opt/odoo/addons/OCA/hr-timesheet/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-knowledge/
+cd /opt/odoo/addons/OCA/knowledge/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-manufacture/
+cd /opt/odoo/addons/OCA/manufacture/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-margin-analysis/
+cd /opt/odoo/addons/OCA/margin-analysis/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-operating-unit/
+cd /opt/odoo/addons/OCA/operating-unit/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-partner-contact/
+cd /opt/odoo/addons/OCA/partner-contact/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-product-attribute/
+cd /opt/odoo/addons/OCA/product-attribute/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-product-variant/
+cd /opt/odoo/addons/OCA/product-variant/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-purchase-workflow/
+cd /opt/odoo/addons/OCA/purchase-workflow/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-queue/
+cd /opt/odoo/addons/OCA/queue/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-reporting-engine/
+cd /opt/odoo/addons/OCA/reporting-engine/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-report-print-send/
+cd /opt/odoo/addons/OCA/report-print-send/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-sale-financial/
+cd /opt/odoo/addons/OCA/sale-financial/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-sale-reporting/
+cd /opt/odoo/addons/OCA/sale-reporting/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-sale-workflow/
+cd /opt/odoo/addons/OCA/sale-workflow/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-server-tools/
+cd /opt/odoo/addons/OCA/server-tools/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-server-ux/
+cd /opt/odoo/addons/OCA/server-ux/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-social/
+cd /opt/odoo/addons/OCA/social/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-stock-logistics-warehouse/
+cd /opt/odoo/addons/OCA/stock-logistics-warehouse/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-stock-logistics-workflow/
+cd /opt/odoo/addons/OCA/stock-logistics-workflow/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-web/
+cd /opt/odoo/addons/OCA/web/
 sudo git reset --hard HEAD
 sudo git pull
 
-cd /opt/odoo/addons/OCA/OCA-website/
+cd /opt/odoo/addons/OCA/website/
 sudo git reset --hard HEAD
 sudo git pull
 
