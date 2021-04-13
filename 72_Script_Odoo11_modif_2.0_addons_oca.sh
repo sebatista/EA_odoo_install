@@ -30,6 +30,7 @@ sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-payment account-payment
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/commission commission
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/contract contract
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/credit-control.git credit-control
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/crm crm
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/e-commerce e-commerce
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/hr hr
@@ -61,7 +62,6 @@ sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-invoice-reporting.git account-invoice-reporting
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/account-reconcile.git account-reconcile
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/bank-payment.git bank-payment
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/credit-control.git credit-control
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/currency.git currency
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/ddmrp.git ddmrp
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/OCA/donation.git donation
@@ -96,6 +96,7 @@ sudo -H pip3 install -r account-invoicing/requirements.txt
 sudo -H pip3 install -r account-payment/requirements.txt
 sudo -H pip3 install -r commission/requirements.txt
 sudo -H pip3 install -r contract/requirements.txt
+sudo -H pip3 install -r credit-control/requirements.txt
 sudo -H pip3 install -r crm/requirements.txt
 sudo -H pip3 install -r e-commerce/requirements.txt
 sudo -H pip3 install -r hr/requirements.txt
@@ -152,6 +153,10 @@ sudo git reset --hard HEAD
 sudo git pull
 
 cd /opt/odoo/addons/OCA/contract/
+sudo git reset --hard HEAD
+sudo git pull
+
+cd /opt/odoo/addons/OCA/credit-control/
 sudo git reset --hard HEAD
 sudo git pull
 

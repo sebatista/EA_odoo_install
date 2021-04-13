@@ -64,37 +64,37 @@ sudo -H pip3 install -r regaby-odoo-addons/requirements.txt
 cd /opt/odoo/addons/others/jobiols-ea-remito/
 sudo git reset --hard HEAD
 sudo git pull
-sudo -H pip3 install -r jobiols-ea-remito/requirements.txt
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/others/jobiols-odoo-addons/
 sudo git reset --hard HEAD
 sudo git pull
-sudo -H pip3 install -r jobiols-odoo-addons/requirements.txt
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/others/jobiols-odoo-jeo-ce/
 sudo git reset --hard HEAD
 sudo git pull
-sudo -H pip3 install -r jobiols-odoo-jeo-ce/requirements.txt
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/others/others-akretion-odoo-usability/
 sudo git reset --hard HEAD
 sudo git pull
-sudo -H pip3 install -r others-akretion-odoo-usability/requirements.txt
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/others/others-it-projects-llc-website-addons/
 sudo git reset --hard HEAD
 sudo git pull
-sudo -H pip3 install -r others-it-projects-llc-website-addons/requirements.txt
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/others/regaby-ea-sale-report/
 sudo git reset --hard HEAD
 sudo git pull
-sudo -H pip3 install -r regaby-ea-sale-report/requirements.txt
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/others/regaby-odoo-addons/
 sudo git reset --hard HEAD
 sudo git pull
-sudo -H pip3 install -r regaby-odoo-addons/requirements.txt
+sudo -H pip3 install -r requirements.txt
 
 
 sudo chown -R odoo:odoo -R /opt/odoo/addons/others
