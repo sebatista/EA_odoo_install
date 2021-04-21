@@ -9,7 +9,8 @@ exit
 #Actualización de Repositorio de Odoo.
 sudo su - odoo -s /bin/bash
 cd /opt/odoo/odoo-server/
-sudo git pull
+git reset --hard HEAD
+git pull
 exit
 
 #Lo anterior se intenta reemplazar por:
