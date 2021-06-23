@@ -126,70 +126,87 @@ sudo -H pip3 install -r website/requirements.txt
 cd /opt/odoo/addons/ADHOC/account-financial-tools/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/account-invoicing/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/account-payment/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/aeroo_reports/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/argentina-reporting/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/argentina-sale/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/manufacture/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/miscellaneous/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/multi-store/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/odoo-argentina/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 #cd /opt/odoo/addons/ADHOC/partner_identification/
 #sudo git reset --hard HEAD
 #sudo git pull
+#sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/product/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/purchase/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/reporting-engine/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/sale/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/stock/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/ADHOC/website/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 
 
