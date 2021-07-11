@@ -110,21 +110,30 @@ else
 	echo "Directorio /opt/odoo/addons/ creado"
 fi
 
-# Crear directorios para Temas
-if [ -d /opt/odoo/addons/temas/ ];
-then
-	echo "El directorio /opt/odoo/addons/temas/ ya existe."
-else
-	sudo -H mkdir /opt/odoo/addons/temas
-	echo "Directorio /opt/odoo/addons/temas/ creado."
-fi
+# # Crear directorios para Temas
+# if [ -d /opt/odoo/addons/temas/ ];
+# then
+	# echo "El directorio /opt/odoo/addons/temas/ ya existe."
+# else
+	# sudo -H mkdir /opt/odoo/addons/temas
+	# echo "Directorio /opt/odoo/addons/temas/ creado."
+# fi
 
-cd /opt/odoo/addons/temas
+cd /opt/odoo/addons
 
 
-sudo -H git clone --depth 1 --single-branch https://github.com/sebatista/EA_theme_laze.git theme_laze
+sudo -H git clone --depth 1 --single-branch --branch 11.0_ea https://github.com/sebatista/EA_theme_laze.git temas
 sudo -H pip3 install -r theme_laze/requirements.txt
 
+
+sudo chown -R odoo:odoo -R /opt/odoo/addons/temas
+sudo chmod -R 775 /opt/odoo/addons/temas
+
+
+cd /opt/odoo/addons/temas/theme_laze/
+sudo git reset --hard HEAD
+sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 sudo chown -R odoo:odoo -R /opt/odoo/addons/temas
 sudo chmod -R 775 /opt/odoo/addons/temas
