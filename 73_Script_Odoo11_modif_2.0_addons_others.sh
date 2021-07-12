@@ -35,11 +35,8 @@ sudo -H pip3 install -r jobiols-odoo-addons/l10n_ar_export_sicore/requirements.t
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/jobiols/odoo-jeo-ce.git jobiols-odoo-jeo-ce
 sudo -H pip3 install -r jobiols-odoo-jeo-ce/requirements.txt
 
-sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/akretion/odoo-usability others-akretion-odoo-usability
-sudo -H pip3 install -r others-akretion-odoo-usability/requirements.txt
-
-#sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/it-projects-llc/website-addons others-it-projects-llc-website-addons
-#sudo -H pip3 install -r others-it-projects-llc-website-addons/requirements.txt
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/akretion/odoo-usability akretion-odoo-usability
+sudo -H pip3 install -r akretion-odoo-usability/requirements.txt
 
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/itpp-labs/access-addons itpp-labs-access-addons
 sudo -H pip3 install -r itpp-labs-access-addons/requirements.txt
@@ -123,6 +120,7 @@ cd /opt/odoo/addons
 
 
 sudo -H git clone --depth 1 --single-branch --branch 11.0_ea https://github.com/sebatista/EA_theme_laze.git temas
+#CALVE de Github
 sudo -H pip3 install -r theme_laze/requirements.txt
 
 
