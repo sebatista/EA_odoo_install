@@ -11,6 +11,8 @@ sudo su - odoo -s /bin/bash
 cd /opt/odoo/odoo-server/
 git reset --hard HEAD
 git pull
+sudo pip3 install -r odoo-server/requirements.txt
+sudo pip3 install -r odoo-server/doc/requirements.txt
 exit
 
 #Lo anterior se intenta reemplazar por:

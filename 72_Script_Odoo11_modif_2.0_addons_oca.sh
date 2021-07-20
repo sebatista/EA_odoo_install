@@ -131,134 +131,167 @@ sudo -H pip3 install -r website/requirements.txt
 cd /opt/odoo/addons/OCA/account-analytic/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/account-financial-reporting/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/account-financial-tools/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/account-invoicing/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/account-payment/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/commission/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/contract/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/credit-control/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/crm/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/e-commerce/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/hr/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/hr-timesheet/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/knowledge/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/manufacture/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/margin-analysis/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/operating-unit/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/partner-contact/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/product-attribute/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/product-variant/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/purchase-workflow/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/queue/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/reporting-engine/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/report-print-send/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/sale-financial/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/sale-reporting/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/sale-workflow/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/server-tools/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/server-ux/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/social/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/stock-logistics-warehouse/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/stock-logistics-workflow/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/web/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 cd /opt/odoo/addons/OCA/website/
 sudo git reset --hard HEAD
 sudo git pull
+sudo -H pip3 install -r requirements.txt
 
 sudo chown -R odoo:odoo -R /opt/odoo/addons/OCA
 sudo chmod -R 775 /opt/odoo/addons/OCA
