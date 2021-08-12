@@ -28,4 +28,4 @@ exit
 #ACTUALIZACIÓN DE BASE DE DATOS Y MÓDULOS
 # sudo su - odoo -s /bin/bash
 # cd /opt/odoo/odoo-server/
-# ./odoo-server/odoo-bin -c /etc/odoo-server.conf --update all
+# ./odoo-server/odoo-bin -c /etc/odoo-server.conf --update [modulo/all] -d [base de datos]
