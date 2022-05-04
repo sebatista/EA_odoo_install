@@ -59,6 +59,9 @@ sudo -H pip3 install -r regaby-odoo-addons/requirements.txt
 sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/sebatista/garazd_website garazd-website
 sudo -H pip3 install -r garazd-website/requirements.txt
 
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/siseservicios/EA_theme_laze temas
+sudo -H pip3 install -r theme_laze/requirements.txt
+
 cd /opt/odoo/addons/others/jobiols-ea-remito/
 sudo git reset --hard HEAD
 sudo git pull

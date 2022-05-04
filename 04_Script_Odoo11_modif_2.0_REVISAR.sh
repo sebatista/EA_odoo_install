@@ -29,3 +29,11 @@ exit
 # sudo su - odoo -s /bin/bash
 # cd /opt/odoo/odoo-server/
 # ./odoo-server/odoo-bin -c /etc/odoo-server.conf --update [modulo/all] -d [base de datos]
+
+
+#2022-01-19
+# ./odoo-server/odoo-bin -c /etc/odoo-server.conf --update website_sale -d ea_prod_20220119
+
+#2022-05-04
+#  ./odoo-server/odoo-bin -c /etc/odoo-server.conf --update theme_laze -d ea_prod_20220119
+# ./odoo-server/odoo-bin -c /etc/odoo-server.conf --update theme_laze -d ea_prod_20220119
