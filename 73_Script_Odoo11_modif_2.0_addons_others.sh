@@ -144,3 +144,19 @@ sudo -H pip3 install -r requirements.txt
 
 sudo chown -R odoo:odoo -R /opt/odoo/addons/temas
 sudo chmod -R 775 /opt/odoo/addons/temas
+
+
+
+
+cd /opt/odoo/addons
+
+sudo -H git clone --depth 1 --branch 11.0 --single-branch https://github.com/siseservicios/sise_addons sise_addons
+sudo -H pip3 install -r sise_addons/web_fix_chrome_web_client/requirements.txt
+
+cd /opt/odoo/addons/sise_addons/
+sudo git reset --hard HEAD
+sudo git pull
+sudo -H pip3 install -r web_fix_chrome_web_client/requirements.txt
+
+sudo chown -R odoo:odoo -R /opt/odoo/addons/sise_addons
+sudo chmod -R 775 /opt/odoo/addons/sise_addons
